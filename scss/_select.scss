@@ -1,0 +1,128 @@
+.dropcontainer_demo2 {
+  position: relative;
+}
+
+.trigger_demo2 {
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+  padding: 17px 30px;
+  font-size: 16px;
+  width: 600px;
+  height: 55px;
+  background: url(../img/form-arrow.svg) 96.5% 52% no-repeat;
+  display: block;
+  border: 1px solid #4b5dff;
+  border-radius: 100px;
+  transition: all 0.5s ease;
+  margin: 12px 0 30px;
+}
+
+.activetrigger_demo2 {
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+  padding: 17px 30px;
+  font-size: 16px;
+  width: 600px;
+  height: 55px;
+  background: url(../img/form-arrow-active.svg) 96.5% 52% no-repeat;
+  display: block;
+  border: 1px solid #4b5dff;
+  border-radius: 100px;
+  box-sizing: border-box;
+  margin: 12px 0 30px;
+}
+
+.dropcontainer_demo2 ul {
+  font-size: 16px;
+  background: #fff;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  list-style-type: none;
+  padding: 12px 10px 15px 15px;
+  width: 92%;
+  z-index: 50;
+  box-sizing: border-box;
+}
+
+.dropcontainer_demo2 a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color: #252525;
+  display: block;
+  padding: 2px 0;
+}
+
+.dropcontainer_demo2 a:hover {
+  color: #4b5dff;
+}
+
+.dropcontainer_demo2 ul li {
+  padding: 5px;
+  transition: all 0.5s ease;
+}
+
+.dropcontainer_demo2 ul li:hover {
+  outline: none;
+}
+
+.dropcontainer_demo2 ul li:first-child {
+  display: none;
+}
+
+.dropcontainer_demo2 ul li:last-child {
+  border-bottom: none;
+}
+
+.dropdownhidden_demo2 {
+  display: none;
+}
+
+.dropdownvisible_demo2 {
+  height: 225px;
+  overflow-y: scroll;
+  position: absolute;
+  top: -30px;
+  left: 23px;
+  z-index: 50;
+}
+
+/* .dropdown .form-control {
+  margin-bottom: 0;
+}
+
+.dropdown-menu {
+  text-align: left;
+  height: 180px;
+  overflow-y: scroll;
+  z-index: 50;
+  list-style: none;
+  font-size: 16px;
+  background: #fff;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  padding: 12px 10px 15px 15px;
+  width: 92%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.dropdown-menu li {
+  padding: 5px;
+}
+
+.dropdown .dropdown-item {
+  background: transparent;
+  margin: 0;
+  padding: 2px 0;
+  cursor: pointer;
+}
+
+.dropdown .dropdown-item:hover {
+  color: #4b5dff;
+}
+
+.dropdown .dropdown-item .disabled {
+  cursor: default;
+} */

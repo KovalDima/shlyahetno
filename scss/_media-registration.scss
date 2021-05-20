@@ -1,0 +1,218 @@
+@media (max-width: 1024px) {
+  .form_last-step {
+    .download-photo {
+      &:hover {
+        color: #4b5dff;
+        background: transparent;
+      }
+    }
+  }
+}
+
+@media (max-width: 680px) {
+  .form {
+    input,
+    select,
+    .trigger_demo2,
+    .activetrigger_demo2 {
+      width: 500px;
+      height: 50px;
+      font-size: 14px;
+      &::placeholder {
+        font-size: 14px;
+      }
+    }
+    .trigger_demo2,
+    .activetrigger_demo2 {
+      padding: 16px 30px;
+    }
+  }
+  .form_last-step {
+    textarea {
+      width: 500px;
+      font-size: 14px;
+      &::placeholder {
+        font-size: 14px;
+      }
+    }
+  }
+  .form__text {
+    margin: 0 360px 50px 0;
+  }
+  .form__add-photo {
+    margin-right: 85px;
+  }
+  .form_last-step {
+    .download-photo {
+      height: 50px;
+      width: 245px;
+      padding: 13px 40px;
+      span {
+        margin-left: 23px;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .form {
+    .btn__wrapper {
+      flex-direction: column;
+      .btn_continue {
+        padding: 14px 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .registration {
+    padding: 40px 10px;
+  }
+  .form__title {
+    font-size: 28px;
+    span {
+      font-size: 22px;
+    }
+  }
+  .form {
+    label {
+      font-size: 16px;
+      .label-text {
+        margin-left: 25px;
+      }
+    }
+    input,
+    select,
+    .trigger_demo2,
+    .activetrigger_demo2 {
+      width: 380px;
+      height: 45px;
+      font-size: 13px;
+      padding: 0 25px;
+      &::placeholder {
+        font-size: 11.5px;
+      }
+    }
+    .trigger_demo2,
+    .activetrigger_demo2 {
+      font-size: 11.5px;
+      padding: 16px 25px;
+    }
+    .dropdownvisible_demo2 {
+      left: 15px;
+      height: 218px;
+    }
+    .dropcontainer_demo2 ul {
+      font-size: 15px;
+      padding: 8px 10px 15px 15px;
+    }
+    .dropcontainer_demo2 a {
+      font-size: 15px;
+    }
+  }
+  .form_last-step {
+    textarea {
+      width: 380px;
+      font-size: 13px;
+      &::placeholder {
+        font-size: 12px;
+      }
+    }
+  }
+  .form__text {
+    margin: 0 0 50px;
+  }
+  .form__add-photo {
+    margin-right: 0;
+  }
+  .form_last-step {
+    .download-photo {
+      height: 45px;
+      padding: 10px 25px;
+      span {
+        margin-left: 23px;
+      }
+    }
+  }
+}
+
+@media (max-width: 470px) {
+  .registration {
+    padding: 30px 7px;
+  }
+  .form__profile-photo {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 410px) {
+  .confident-text {
+    width: 170px;
+    margin: -5px 0 0 8px;
+  }
+  .form__title {
+    margin-bottom: 30px;
+    font-size: 26px;
+    span {
+      font-size: 20px;
+    }
+  }
+  .form {
+    padding: 30px 0;
+    label {
+      font-size: 14px;
+      .label-text {
+        margin-left: 15px;
+      }
+    }
+    input,
+    select,
+    .trigger_demo2,
+    .activetrigger_demo2 {
+      width: 295px;
+      height: 40px;
+      padding: 0 15px;
+      &::placeholder {
+        font-size: 11px;
+      }
+    }
+    .trigger_demo2,
+    .activetrigger_demo2 {
+      padding: 14px 15px;
+      font-size: 11px;
+    }
+    .dropdownvisible_demo2 {
+      left: 12px;
+    }
+  }
+  .form_last-step {
+    textarea {
+      width: 295px;
+      height: 120px;
+    }
+  }
+  .form__add-photo {
+    flex-direction: column;
+  }
+  .form__profile-photo {
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+  .form__text {
+    margin: 0 0 25px;
+  }
+  .form_last-step {
+    .download-photo {
+      padding: 11px 25px;
+      width: 225px;
+      span {
+        font-size: 15px;
+        margin-left: 20px;
+      }
+    }
+    textarea {
+      padding: 15px;
+    }
+  }
+}
